@@ -1,6 +1,6 @@
 # Overview
 
-This is an extremely simple website template built on webpack to help you author and host [reveal.js][https://revealjs.com/] presentations with ease. 
+This is an extremely simple website template built on webpack to help you author and host [reveal.js](https://revealjs.com/) presentations with ease. 
 
 ## Setup
 
