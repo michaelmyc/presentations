@@ -1,0 +1,26 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "Bootstrapping repo for a simple  using Markdown with Reveal.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "serve": "webpack serve --config webpack.dev.js"
+  },
+  "author": "Michael Mao",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "glob": "^8.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "reveal.js": "^4.3.1"
+  }
+}
