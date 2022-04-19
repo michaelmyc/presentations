@@ -24,7 +24,7 @@ The landing page is a static HTML page you can edit. Presentations are not autom
 
 ## Static Files
 
-You may place static files in the `static` folder which will be copied over directly to `/static`. In this template, an example favicon is placed in `static` and dynamically loaded in `src/index.js`. 
+You may place static files in the `static` folder which will be copied over directly to `/`. In this template, an example favicon is placed in `static` and dynamically loaded in `src/index.js`. 
 
 ## Making Further Modifications
 

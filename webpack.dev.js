@@ -37,7 +37,7 @@ module.exports = {
     ),
     new CopyPlugin({
       patterns: [
-        { from: "static", to: "static", noErrorOnMissing: true },
+        { from: "static", noErrorOnMissing: true },
         ...presentations.map((presentation) => ({
           from: `src/presentations/${presentation}/assets`,
           to: `${presentation}/assets/[name][ext]`,

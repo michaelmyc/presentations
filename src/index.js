@@ -2,7 +2,7 @@
 let favicon = document.createElement("link");
 favicon.setAttribute("rel", "icon");
 favicon.setAttribute("type", "image/x-icon");
-favicon.setAttribute("href", "/static/favicon.ico");
+favicon.setAttribute("href", "favicon.ico");
 document.head.appendChild(favicon);
 
 // lazily load needed files (e.g. theme, styling, etc.) with `import()`
